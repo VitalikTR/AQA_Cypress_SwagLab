@@ -48,7 +48,7 @@ export class ProductPageSwagLabsTS extends basePageSwagLabsTS {
 
     public openBurgerMenu() {
         this.menu().click()
-        this.waitForSeconds(1)
+        this.waitForSeconds(2)
             return this
     };
 

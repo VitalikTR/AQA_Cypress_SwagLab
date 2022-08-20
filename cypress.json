@@ -1,10 +1,6 @@
 {
 	"env": {
-   		"TAGS": "@smoke",
-		"API_HOST": "https://jsonplaceholder.typicode.com",
-		"UI_HOST": "https://www.saucedemo.com/",
-		"UI_HOST_Parabank": "https://parabank.parasoft.com/parabank/index.htm",
-		"API_HOST_Parabank": "https://parabank.parasoft.com/parabank/index.htm"
+		"UI_HOST": "https://www.saucedemo.com/"
 	},
 	"chromeWebSecurity": false,
 	"watchForFileChanges": false,
@@ -16,7 +12,7 @@
 	"reporterOptions": {
 		"reportDir": "reports",
 		"charts": true,
-		"reportPageTitle": "Test Suite Vitalik-taf",
+		"reportPageTitle": "Test Suite AQA",
 		"embeddedScreenshots": true,
 		"inlineAssets": true
 	}
