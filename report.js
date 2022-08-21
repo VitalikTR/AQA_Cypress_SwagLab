@@ -16,7 +16,7 @@ const cucumberJsonDir = 'cypress/test-results/cucumber-json';
 const cucumberReportFileMap = {};
 const cucumberReportMap = {};
 const jsonIndentLevel = 2;
-const htmlReportDir = 'reports/html';
+const htmlReportDir = 'cypress/test-results/html';
 const screenshotsDir = 'cypress/screenshots';
 const snapshotDir = 'cypress/snapshots';
 
@@ -225,9 +225,9 @@ function generateReport() {
         browser: {
           name: 'chrome',
         },
-        device: 'VM',
+        device: 'PC',
         platform: {
-          name: 'linux',
+          name: 'Windows',
         },
       },
     });
